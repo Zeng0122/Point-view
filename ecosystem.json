@@ -3,6 +3,16 @@
     {
       "name": "node-framework",
       "script": "server/server.js",
+      "watch": true,
+      "ignore_watch": [
+        ".idea",
+        ".git",
+        "node_modules",
+        "memory",
+        "pd",
+        "tmp",
+        "upload"
+      ],
       "env_dev" : {
         "NODE_ENV": "dev"
       }

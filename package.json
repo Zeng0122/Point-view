@@ -24,7 +24,6 @@
     "serve-favicon": "^2.0.1"
   },
   "devDependencies": {
-    "jshint": "^2.5.6"
   },
   "repository": {
     "type": "",

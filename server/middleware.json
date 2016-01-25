@@ -28,6 +28,7 @@
     "./middleware/auth.js": {
       "name": "auth",
       "params": {
+        "ignoreAll":true,
         "ignore": [
           "/api/Users/login",
           "/explorer/",
